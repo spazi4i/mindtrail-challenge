@@ -90,17 +90,31 @@ class QuestionManagerTests(unittest.TestCase):
         self.assertEqual(subject_counter, Counter({"Anatomia": 2, "Inglese": 2, "Italiano": 2, "Scienze": 2}))
         self.assertEqual(level_counter, Counter({"Facile": 2, "Media": 2, "Difficile": 2, "Plus": 2}))
 
-    def test_interdisciplinary_validation_rejects_non_divisible_question_count(self):
+    def test_interdisciplinary_validation_allows_balanced_distribution_when_not_divisible(self):
         bank = make_interdisciplinary_bank(
-            ["Italiano", "Inglese", "Scienze", "Anatomia"],
+            ["Italiano", "Inglese", "Scienze", "Anatomia", "PCI"],
             per_level=3,
         )
         manager = QuestionManager(bank)
 
-        result = manager.validate_unique_questions(6)
+        result = manager.validate_unique_questions(8)
 
-        self.assertIn("error", result)
-        self.assertIn("multiplo di 4", result["error"])
+        self.assertEqual(result, {})
+
+        athlete = Athlete(number=1, total_runs=9, total_questions=8, question_show_seconds=5)
+        subject_counter = Counter()
+        level_counter = Counter()
+
+        for question_number in range(1, 9):
+            level, question, answer, subject = manager.next_question(athlete, question_number, athlete.total_questions)
+            self.assertTrue(question)
+            self.assertTrue(answer)
+            self.assertTrue(subject)
+            subject_counter[subject] += 1
+            level_counter[level] += 1
+
+        self.assertLessEqual(max(subject_counter.values()) - min(subject_counter.values()), 1)
+        self.assertLessEqual(max(level_counter.values()) - min(level_counter.values()), 1)
 
     def test_interdisciplinary_validation_rejects_missing_capacity(self):
         bank = {

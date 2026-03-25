@@ -211,27 +211,11 @@ class QuestionManager:
         if not subject_names:
             return {"error": "Nessuna materia disponibile per creare il percorso interdisciplinare."}
 
-        if total_questions % len(subject_names) != 0:
-            return {
-                "error": (
-                    f"Con {len(subject_names)} materie servono un numero di domande multiplo di {len(subject_names)} "
-                    "per avere lo stesso numero di domande per materia."
-                )
-            }
-
-        if total_questions % len(LEVELS) != 0:
-            return {
-                "error": (
-                    f"Servono un numero di domande multiplo di {len(LEVELS)} "
-                    "per avere lo stesso numero di domande per difficolta."
-                )
-            }
-
         pair_counts = self._build_interdisciplinary_pair_counts(total_questions)
         if pair_counts is None:
             return {
                 "error": (
-                    "Non riesco a bilanciare domande per materia e difficolta con le domande uniche "
+                    "Non riesco a distribuire in modo equilibrato domande per materia e difficolta con le domande uniche "
                     "disponibili nei file JSON."
                 )
             }
@@ -241,8 +225,19 @@ class QuestionManager:
 
     def _build_interdisciplinary_pair_counts(self, total_questions: int):
         subject_names = sorted(self.subject_banks.keys())
-        per_subject = total_questions // len(subject_names)
-        per_level = total_questions // len(LEVELS)
+        base_per_subject = total_questions // len(subject_names)
+        extra_subjects = total_questions % len(subject_names)
+        subject_targets = {
+            subject: base_per_subject + (1 if idx < extra_subjects else 0)
+            for idx, subject in enumerate(subject_names)
+        }
+
+        base_per_level = total_questions // len(LEVELS)
+        extra_levels = total_questions % len(LEVELS)
+        level_targets = {
+            level: base_per_level + (1 if idx < extra_levels else 0)
+            for idx, level in enumerate(LEVELS)
+        }
         capacities = {
             subject: {
                 level: len({self._question_key(item) for item in self.subject_banks[subject][level]})
@@ -280,7 +275,8 @@ class QuestionManager:
                 return None
 
             subject = subject_names[subject_index]
-            for allocation in subject_allocations(subject, per_subject, 0, col_remaining, {}):
+            needed = subject_targets[subject]
+            for allocation in subject_allocations(subject, needed, 0, col_remaining, {}):
                 next_remaining = col_remaining.copy()
                 for level, amount in allocation.items():
                     next_remaining[level] -= amount
@@ -294,7 +290,7 @@ class QuestionManager:
                         return result
             return None
 
-        return assign_subject(0, {level: per_level for level in LEVELS}, {})
+        return assign_subject(0, level_targets.copy(), {})
 
     def _build_interdisciplinary_plan(self, pair_counts):
         plan = []
