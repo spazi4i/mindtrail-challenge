@@ -1,0 +1,45 @@
+{
+  "subject": "Anatomia",
+  "levels": {
+    "Facile": [
+      { "question": "Quanti arti ha il corpo umano?", "answer": "Quattro: due superiori e due inferiori." },
+      { "question": "Come si chiama l'osso del braccio tra spalla e gomito?", "answer": "Omero." },
+      { "question": "Quale osso protegge il cuore e i polmoni?", "answer": "La gabbia toracica." },
+      { "question": "Come si chiama l'osso della spalla posteriore?", "answer": "Scapola." },
+      { "question": "Dove si trova il femore?", "answer": "Nella coscia." },
+      { "question": "Che cos'è un'articolazione?", "answer": "Il punto di unione tra due o più ossa." },
+      { "question": "Quale osso forma la fronte?", "answer": "L'osso frontale." },
+      { "question": "Come si chiamano le ossa delle dita del piede?", "answer": "Falangi." }
+    ],
+    "Media": [
+      { "question": "Qual è la differenza principale tra tendine e legamento?", "answer": "Il tendine unisce muscolo-osso, il legamento osso-osso." },
+      { "question": "Quali sono le due ossa dell'avambraccio?", "answer": "Radio e ulna." },
+      { "question": "Quale struttura separa torace e addome?", "answer": "Il diaframma." },
+      { "question": "Quale parte del cuore pompa sangue verso il corpo?", "answer": "Il ventricolo sinistro." },
+      { "question": "Che funzione hanno i globuli rossi?", "answer": "Trasportare ossigeno (e parte della CO2)." },
+      { "question": "Quale sistema coordina i movimenti volontari?", "answer": "Il sistema nervoso somatico." },
+      { "question": "Quale articolazione consente flessione ed estensione del gomito?", "answer": "Articolazione omero-ulnare (ginglimo)." },
+      { "question": "Dove avviene lo scambio di ossigeno nei polmoni?", "answer": "Negli alveoli." }
+    ],
+    "Difficile": [
+      { "question": "Che cos'è la sinapsi neuromuscolare?", "answer": "La giunzione tra motoneurone e fibra muscolare." },
+      { "question": "Quale funzione ha il sarcomero?", "answer": "È l'unità contrattile del muscolo striato." },
+      { "question": "Che differenza c'è tra muscolo agonista e antagonista?", "answer": "L'agonista produce il movimento, l'antagonista si oppone/controlla." },
+      { "question": "Quale struttura cardiaca genera il ritmo fisiologico primario?", "answer": "Nodo senoatriale." },
+      { "question": "Che cosa indica il termine ventilazione alveolare?", "answer": "Volume d'aria efficace che raggiunge gli alveoli per gli scambi gassosi." },
+      { "question": "Quale è il principale tampone extracellulare del sangue?", "answer": "Il sistema bicarbonato/acido carbonico." },
+      { "question": "Che ruolo ha il calcio nella contrazione muscolare?", "answer": "Permette l'interazione actina-miosina legandosi alla troponina." },
+      { "question": "Qual è la funzione principale del sistema linfatico?", "answer": "Drenaggio dei liquidi interstiziali e difesa immunitaria." }
+    ],
+    "Plus": [
+      { "question": "Che differenza funzionale c'è tra corteccia motoria primaria e corteccia premotoria?", "answer": "La primaria esegue il comando, la premotoria pianifica/organizza il movimento." },
+      { "question": "Qual è il ruolo dei propriocettori nel controllo motorio?", "answer": "Forniscono feedback su posizione e tensione muscolare per regolare il gesto." },
+      { "question": "Perché l'ipertrofia muscolare non coincide sempre con aumento proporzionale della forza?", "answer": "La forza dipende anche da fattori neurali, coordinazione e leva biomeccanica." },
+      { "question": "Che cosa si intende per gittata cardiaca?", "answer": "Volume di sangue pompato dal cuore in un minuto (FC x gittata sistolica)." },
+      { "question": "Quale adattamento respiratorio migliora la prestazione aerobica con allenamento?", "answer": "Maggiore efficienza ventilatoria e migliore diffusione/scambio dei gas." },
+      { "question": "Come interagiscono sistema nervoso ed endocrino nello stress da esercizio?", "answer": "Il nervoso attiva risposta rapida; l'endocrino sostiene regolazione metabolica e adattamento." },
+      { "question": "Perché il recupero del glicogeno è cruciale negli sport intermittenti?", "answer": "Per ripristinare il substrato energetico chiave negli sforzi ripetuti ad alta intensità." },
+      { "question": "Qual è il vantaggio del reclutamento motorio sincrono negli sforzi massimali?", "answer": "Aumenta la produzione istantanea di forza." }
+    ]
+  }
+}

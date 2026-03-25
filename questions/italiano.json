@@ -1,0 +1,45 @@
+{
+  "subject": "Italiano",
+  "levels": {
+    "Facile": [
+      { "question": "Quale tra queste parole e' un nome?\nA) correre\nB) quaderno\nC) rosso", "answer": "B) quaderno" },
+      { "question": "Quale frase contiene un articolo determinativo?\nA) Il gatto dorme.\nB) Un cane corre.\nC) Mia sorella legge.", "answer": "A) Il gatto dorme." },
+      { "question": "Quale parola e' un verbo?\nA) saltare\nB) banco\nC) allegro", "answer": "A) saltare" },
+      { "question": "Quale di queste e' una frase completa?\nA) Nel cortile grande\nB) Mangia una mela\nC) Con gli amici", "answer": "B) Mangia una mela" },
+      { "question": "Quale parola e' un aggettivo qualificativo?\nA) bello\nB) scuola\nC) lentamente", "answer": "A) bello" },
+      { "question": "Qual e' il plurale corretto di \"libro\"?\nA) libri\nB) libroi\nC) librie", "answer": "A) libri" },
+      { "question": "Quale segno di punteggiatura si usa alla fine di una domanda?\nA) Punto.\nB) Punto interrogativo?\nC) Virgola,", "answer": "B) Punto interrogativo?" },
+      { "question": "Quale parola e' femminile?\nA) ragazza\nB) tavolo\nC) quaderno", "answer": "A) ragazza" }
+    ],
+    "Media": [
+      { "question": "In quale frase il soggetto e' sottinteso?\nA) Noi giochiamo in giardino.\nB) Mangio una pizza.\nC) Luca studia storia.", "answer": "B) Mangio una pizza." },
+      { "question": "Quale frase contiene un aggettivo possessivo?\nA) Il cane abbaia.\nB) La mia penna e' blu.\nC) Corro velocemente.", "answer": "B) La mia penna e' blu." },
+      { "question": "Qual e' il contrario di \"alto\"?\nA) basso\nB) largo\nC) veloce", "answer": "A) basso" },
+      { "question": "Quale parola e' un avverbio?\nA) dolce\nB) felicemente\nC) amico", "answer": "B) felicemente" },
+      { "question": "Quale frase e' al tempo passato?\nA) Domani andro' al parco.\nB) Ieri ho visto un film.\nC) Oggi studio matematica.", "answer": "B) Ieri ho visto un film." },
+      { "question": "Quale parola appartiene alla stessa famiglia di \"mare\"?\nA) marino\nB) collina\nC) nuvola", "answer": "A) marino" },
+      { "question": "Quale frase contiene il predicato verbale?\nA) La casa di Marco.\nB) Giulia legge un libro.\nC) Sul tavolo verde.", "answer": "B) Giulia legge un libro." },
+      { "question": "Quale tra queste e' una preposizione semplice?\nA) con\nB) grande\nC) tavolo", "answer": "A) con" }
+    ],
+    "Difficile": [
+      { "question": "In quale frase e' presente il complemento oggetto?\nA) Marco mangia la mela.\nB) Luca va a scuola.\nC) Anna e' felice.", "answer": "A) Marco mangia la mela." },
+      { "question": "Quale parola e' un pronome personale?\nA) io\nB) bello\nC) tavolo", "answer": "A) io" },
+      { "question": "Quale frase contiene una congiunzione?\nA) Ho penna e quaderno.\nB) Corro nel parco.\nC) La sedia rossa.", "answer": "A) Ho penna e quaderno." },
+      { "question": "Quale verbo e' al futuro semplice?\nA) correvo\nB) correro'\nC) corro", "answer": "B) correro'" },
+      { "question": "Qual e' il superlativo assoluto di \"forte\"?\nA) fortissimo\nB) piu' forte\nC) fortezza", "answer": "A) fortissimo" },
+      { "question": "In quale frase il verbo e' usato all'imperfetto?\nA) Da piccolo giocavo sempre in cortile.\nB) Oggi gioco in cortile.\nC) Domani giochero' in cortile.", "answer": "A) Da piccolo giocavo sempre in cortile." },
+      { "question": "Quale parola e' derivata da \"pane\"?\nA) panettiere\nB) latte\nC) coltello", "answer": "A) panettiere" },
+      { "question": "Quale frase contiene un complemento di luogo?\nA) Il libro e' sul banco.\nB) Marta e' gentile.\nC) Ho chiamato Sara.", "answer": "A) Il libro e' sul banco." }
+    ],
+    "Plus": [
+      { "question": "In quale frase e' presente una similitudine?\nA) Marco e' veloce come il vento.\nB) Il sole tramonta.\nC) Ho letto un libro.", "answer": "A) Marco e' veloce come il vento." },
+      { "question": "Quale frase contiene una metafora?\nA) Sei un leone in campo.\nB) Corri come un fulmine.\nC) Il treno e' arrivato.", "answer": "A) Sei un leone in campo." },
+      { "question": "Quale frase e' scritta in modo corretto nel discorso diretto?\nA) Luca disse vengo subito.\nB) Luca disse: \"Vengo subito\".\nC) Luca disse, vengo subito.", "answer": "B) Luca disse: \"Vengo subito\"." },
+      { "question": "Quale tra queste e' una frase minima?\nA) Il gatto nero sul tetto.\nB) Il gatto dorme.\nC) Nel giardino della scuola.", "answer": "B) Il gatto dorme." },
+      { "question": "Quale parola e' un nome astratto?\nA) bonta'\nB) quaderno\nC) bicicletta", "answer": "A) bonta'" },
+      { "question": "In quale frase c'e' il complemento di tempo?\nA) Partiro' domani mattina.\nB) Ho visto Luca al parco.\nC) Mangio la pasta.", "answer": "A) Partiro' domani mattina." },
+      { "question": "Quale parola e' alterata?\nA) casetta\nB) casa\nC) palazzo", "answer": "A) casetta" },
+      { "question": "Quale frase contiene il discorso indiretto?\nA) Sara disse: \"Sono pronta\".\nB) Sara disse che era pronta.\nC) Sara pronta!", "answer": "B) Sara disse che era pronta." }
+    ]
+  }
+}

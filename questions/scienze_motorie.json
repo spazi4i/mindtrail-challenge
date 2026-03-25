@@ -1,0 +1,45 @@
+{
+  "subject": "Scienze Motorie",
+  "levels": {
+    "Facile": [
+      { "question": "Qual è la funzione principale dello scheletro umano?", "answer": "Sostegno, protezione e movimento insieme ai muscoli." },
+      { "question": "Come si chiama l'osso della coscia?", "answer": "Femore." },
+      { "question": "Quale osso protegge il cervello?", "answer": "Il cranio." },
+      { "question": "Come si chiamano le ossa della gabbia toracica?", "answer": "Coste." },
+      { "question": "Quale articolazione unisce femore e tibia?", "answer": "Il ginocchio." },
+      { "question": "Dove si trova la rotula?", "answer": "Nel ginocchio, davanti all'articolazione." },
+      { "question": "Che cosa collega il muscolo all'osso?", "answer": "Il tendine." },
+      { "question": "Che cosa collega un osso a un altro osso?", "answer": "Il legamento." }
+    ],
+    "Media": [
+      { "question": "Qual è la funzione principale del sistema nervoso periferico?", "answer": "Trasmettere informazioni tra corpo e sistema nervoso centrale." },
+      { "question": "Quali nervi portano informazioni dal corpo al SNC?", "answer": "I nervi sensitivi (afferenti)." },
+      { "question": "Quali nervi portano comandi dal SNC ai muscoli?", "answer": "I nervi motori (efferenti)." },
+      { "question": "Qual è la funzione principale del cuore?", "answer": "Pompare il sangue nella circolazione." },
+      { "question": "Quante cavità ha il cuore umano?", "answer": "Quattro." },
+      { "question": "Qual è la differenza tra arterie e vene?", "answer": "Le arterie portano sangue dal cuore, le vene lo riportano al cuore." },
+      { "question": "Quali vasi permettono gli scambi tra sangue e tessuti?", "answer": "I capillari." },
+      { "question": "Che cosa misura la frequenza cardiaca?", "answer": "Il numero di battiti al minuto." }
+    ],
+    "Difficile": [
+      { "question": "Che cos'è l'omeostasi cellulare?", "answer": "Il mantenimento di condizioni interne stabili nella cellula." },
+      { "question": "Qual è la funzione della membrana plasmatica?", "answer": "Regolare gli scambi tra interno ed esterno della cellula." },
+      { "question": "Che cos'è l'osmosi?", "answer": "Passaggio di acqua attraverso membrana semipermeabile." },
+      { "question": "Quale organulo produce ATP nella cellula?", "answer": "Il mitocondrio." },
+      { "question": "Qual è la differenza tra anabolismo e catabolismo?", "answer": "Anabolismo costruisce molecole, catabolismo le degrada liberando energia." },
+      { "question": "Dove avviene principalmente la respirazione cellulare aerobica?", "answer": "Nei mitocondri." },
+      { "question": "Che cos'è il lattato?", "answer": "Un prodotto del metabolismo anaerobico del glucosio." },
+      { "question": "Che cosa si intende per bilancio energetico?", "answer": "Differenza tra energia introdotta e energia consumata." }
+    ],
+    "Plus": [
+      { "question": "Qual è la funzione principale dell'encefalo?", "answer": "Integrare informazioni e controllare funzioni cognitive, motorie e vitali." },
+      { "question": "Che differenza c'è tra cervello, cervelletto e tronco encefalico?", "answer": "Cervello: funzioni superiori; cervelletto: coordinazione; tronco: funzioni vitali." },
+      { "question": "Quale struttura coordina in modo fine equilibrio e precisione del movimento?", "answer": "Il cervelletto." },
+      { "question": "Che cos'è una sinapsi?", "answer": "La giunzione funzionale tra due neuroni o tra neurone e cellula bersaglio." },
+      { "question": "Quale ghiandola è detta ghiandola maestra del sistema endocrino?", "answer": "L'ipofisi." },
+      { "question": "Quale ghiandola produce insulina e glucagone?", "answer": "Il pancreas endocrino." },
+      { "question": "Quale ormone aumenta rapidamente nella risposta allo sforzo intenso?", "answer": "Adrenalina." },
+      { "question": "Perché sistema nervoso centrale e ormonale lavorano in modo integrato?", "answer": "Per coordinare risposta immediata e adattamenti prolungati all'esercizio." }
+    ]
+  }
+}
